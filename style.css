@@ -1,0 +1,71 @@
+body {
+    background-color: #6f826a;
+}
+.video {
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(245, 246, 245);
+    text-shadow: 0 0 10px #3f582b, 0 0 20px #3f582b, 0 0 30px #3f582b, 0 0 40px #3f582b, 0 0 50px #3f582b;
+}
+video {
+    border: solid;
+    border-width: 30px;
+    border-style: ridge;
+    border-color: darkolivegreen;
+}
+.divider {
+    border: 5px #fdfefd;
+    border-style: double;
+    border-width: 100%;
+}
+.container {
+    display: flex;
+}
+.restart, #submit-rating {
+    width: 50%;
+    padding: 20px;
+}
+.button {
+    background-color: #ffdead;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.restart {
+    text-align: center;
+}
+.button:hover {
+    box-shadow: 0 0 10px #3f582b, 0 0 20px #4c6a34, 0 0 30px #3f582b;
+}    
+h2 {
+    text-align: center;
+    font-family: cursive;
+    color: rgb(245, 246, 245);
+}
+.rate-movie {
+    text-align: center;
+}
+.stars {
+    direction: rtl;
+    color: #ccc;
+    font-size: 30px;
+    cursor: pointer;
+}
+.stars input[type="radio"] {
+    display: none;
+}
+.stars input[type="radio"]:checked ~ label {
+    color: #f90;
+}
+#submit-rating { 
+    background-color: #ffdead;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#submit-rating:hover {
+    box-shadow: 0 0 10px #3f582b, 0 0 20px #4c6a34, 0 0 30px #3f582b;
+}
